@@ -110,7 +110,7 @@ router.delete("/configurations/:id", async (req, res) => {
 
 //endpoint deployed
 router.get("/", (req, res) => {
-    res.json({ endpoint: "server is running at: " });
+    res.json({ endpoint: "https://coderower-backend.vercel.app/api/configurations/qwertyuiop" });
 });
 // Use router
 app.use("/api", router);
